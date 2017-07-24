@@ -1,0 +1,44 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+aggregat	../imgCut.py	/^def aggregat(arr):$/;"	kind:function	line:12
+binfile	../toBMP.py	/^  binfile=open(filename,'rb')$/;"	kind:variable	line:19
+buf	../toBMP.py	/^  buf=binfile.read()$/;"	kind:variable	line:20
+cellCut	../imgCut.py	/^def cellCut(img):$/;"	kind:function	line:135
+cutX	../imgCut.py	/^def cutX(img, Y):$/;"	kind:function	line:90
+cutY	../imgCut.py	/^def cutY(img):$/;"	kind:function	line:71
+filename	../toBMP.py	/^  filename = path + filename$/;"	kind:variable	line:18
+filenames	../toBMP.py	/^filenames = [ 'mnist\/train-images.idx3-ubyte',$/;"	kind:variable	line:11
+func	../imgCut.py	/^def func(x,y,sigma=1):$/;"	kind:function	line:32
+getData	../svm.py	/^def getData(filename):$/;"	kind:function	line:11
+getHog	../imgCut.py	/^def getHog(img):$/;"	kind:function	line:192
+getImgBorder	../imgCut.py	/^def getImgBorder(filename):$/;"	kind:function	line:37
+getPoints	../imgCut.py	/^def getPoints(X, Y):$/;"	kind:function	line:114
+im	../toBMP.py	/^      im=Image.fromarray(im)$/;"	kind:variable	line:31
+im	../toBMP.py	/^      im=im.reshape(28,28)$/;"	kind:variable	line:30
+im	../toBMP.py	/^      im=np.array(im,dtype='uint8')$/;"	kind:variable	line:29
+im	../toBMP.py	/^      im=struct.unpack_from('>784B',buf,index)$/;"	kind:variable	line:26
+imgCut	../imgCut.py	/^def imgCut(img, points):$/;"	kind:function	line:156
+imgCut.py	../imgCut.py	1;"	kind:file	line:1
+index	../toBMP.py	/^  index=0$/;"	kind:variable	line:21
+labels	../preProcess.py	/^    labels = {}$/;"	kind:variable	line:89
+path	../preProcess.py	/^path = '..\/img\/svm\/'$/;"	kind:variable	line:14
+path	../svm.py	/^path = '..\/img\/svm\/'$/;"	kind:variable	line:8
+path	../toBMP.py	/^path = '..\/img\/svm\/'$/;"	kind:variable	line:10
+preProcess.py	../preProcess.py	1;"	kind:file	line:1
+predict	../svm.py	/^def predict():$/;"	kind:function	line:34
+process	../preProcess.py	/^def process(labels):$/;"	kind:function	line:36
+read_labels	../preProcess.py	/^def read_labels(filename):$/;"	kind:function	line:17
+result	../preProcess.py	/^    result = process(labels)$/;"	kind:variable	line:94
+save	../preProcess.py	/^def save(result):$/;"	kind:function	line:75
+savePath	../toBMP.py	/^      savePath = path + savenames[key]$/;"	kind:variable	line:32
+savenames	../toBMP.py	/^savenames = [ 'train\/%s.bmp',$/;"	kind:variable	line:13
+showBorder	../imgCut.py	/^def showBorder():$/;"	kind:function	line:201
+start	../imgCut.py	/^def start():$/;"	kind:function	line:237
+start	../svm.py	/^def start():$/;"	kind:function	line:44
+svm.py	../svm.py	1;"	kind:file	line:1
+toBMP.py	../toBMP.py	1;"	kind:file	line:1
+train	../svm.py	/^def train():$/;"	kind:function	line:24
